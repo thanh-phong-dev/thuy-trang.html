@@ -111,9 +111,8 @@ $(document).ready(function () {
     var audio = new Audio("sound/tick.mp3");
     audio.play();
     Swal.fire({
-      width: 900,
+      customClass: "swal-back",
       confirmButtonText: textConfig.text12,
-      background: '#fff url("img/iput-bg.jpg")',
       title: textConfig.text10,
       text: textConfig.text11,
       confirmButtonColor: "#83d0c9",

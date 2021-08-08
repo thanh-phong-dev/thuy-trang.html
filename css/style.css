@@ -154,7 +154,7 @@ header h4 {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin-left: 56px;
+    margin-left: 43px;
   }
   .ico2:before,
   .ico2:after {
@@ -173,4 +173,58 @@ header h4 {
   .ico2:after {
     animation: explodeSmall 2s infinite;
   }
+
+  .swal2-image {
+    width: 500px !important;
+    height: 386px !important;
+  }
+
+  .console-container {
+    text-shadow: 2px 4px 3px rgb(0 0 0 / 30%);
+    font-family: Khula;
+    font-size: 2em;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    display: block;
+    position: absolute;
+    color: initial;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 10px;
+  }
+
+  .button {
+    font-family: "Bungee", cursive;
+    font-size: 1.15rem !important;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: #00e8ffb8;
+    border: 2px solid darken(palevioletred, 15%);
+    padding: 9px 36px;
+    border-radius: 45px;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 2px 4px darkgray;
+    transition: all 0.2s ease-in;
+    z-index: 1;
+  }
+
+}
+
+.swal-back {
+  width: 900px !important;
+  background: url(../img/iput-bg.jpg) rgb(255, 255, 255) !important;
+  display: flex !important;
 }
